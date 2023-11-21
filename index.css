@@ -1,0 +1,270 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+
+
+  *{
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .header{
+    background-color: transparent;
+    color: black;
+  }
+
+  #header{
+    margin-top: 2vw;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  select , .form input{
+    background-color: #eee;
+    outline: none;
+    padding: 12px 15px;
+    width: 30%;
+    border-radius: 2px;
+    box-sizing: border-box;
+}
+
+.container{
+  background-color: white;
+  padding: 20px 30px 20px 30px;
+  margin-top: 4vw;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+  
+  .form {
+    margin-top: 2vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+  }
+  
+  .form  input{
+    padding: 10px;
+    text-align: left;
+    width: 30%;
+    border: 1px solid rgb(125, 125, 125);
+    border-radius: 6px;
+  }
+  
+
+  .form input[type="button"]{
+    border-radius: 20px;
+    border: 1px solid #0d6efd;
+    background-color: #0d6efd;
+    color: #ffffff;
+    font-size: 12px;
+    padding: 12px 45px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: transform 80ms ease-in;
+    text-align: center;
+}
+  .form input[type="button"]:hover{
+    color: #fff;
+    background-color: 1e63a9;
+  }
+
+  #danger{
+    border-radius: 20px;
+      border: 1px solid #dc3545;
+      background-color: #dc3545;
+      color: #ffffff;
+      font-size: 12px;
+      padding: 12px 45px;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      transition: transform 80ms ease-in;
+  }
+  #danger input[type="button"]:active{
+    transform: scale(0.95);
+}
+
+#danger input[type="button"]:focus{
+  outline: none;
+}
+
+#danger input[type="button"]{
+  background-color: transparent;
+  border-color: #ffffff;
+}
+
+form input[type="button"]:active{
+    transform: scale(0.95);
+}
+
+form input[type="button"]:focus{
+    outline: none;
+}
+
+form input[type="button"]{
+    background-color: transparent;
+    border-color: #ffffff;
+}
+
+span{
+  font-size: 12px;
+}
+
+.social-container{
+  margin: 10px 0;
+}
+.social-container a{
+  border: 1px solid #dddddd;
+  border-radius: 50%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 5px;
+  height: 40px;
+  width: 40px;
+  text-decoration: none;
+}
+
+
+.remember-forgot {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}  
+
+
+
+
+
+  @media only screen and (max-width: 600px) {
+
+    .header{
+      background-color: transparent;
+      color: black;
+    }
+    #header{
+      margin-top: 30%;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    select , .form input{
+      background-color: #eee;
+      outline: none;
+      padding: 12px 15px;
+      width: 100%;
+      border-radius: 2px;
+      box-sizing: border-box;
+  }
+
+  .profile-heading{
+        font-size: 20px;
+  }
+
+    .container{
+        background-color: white;
+        padding: 20px 30px 20px 30px;
+        margin-top: 4vw;
+        border-radius: 5px;
+        width: 230px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .form input[type="button"]{
+      border-radius: 20px;
+      border: 1px solid #0d6efd;
+      background-color: #0d6efd;
+      color: #ffffff;
+      font-size: 12px;
+      padding: 12px 45px;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      transition: transform 80ms ease-in;
+      text-align: center;
+  }
+  
+  #danger{
+    border-radius: 20px;
+      border: 1px solid #dc3545;
+      background-color: #dc3545;
+      color: #ffffff;
+      font-size: 12px;
+      padding: 12px 45px;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      transition: transform 80ms ease-in;
+  }
+  #danger input[type="button"]:active{
+    transform: scale(0.95);
+}
+
+#danger input[type="button"]:focus{
+    outline: none;
+}
+
+#danger input[type="button"]{
+    background-color: transparent;
+    border-color: #ffffff;
+}
+
+  form input[type="button"]:active{
+      transform: scale(0.95);
+  }
+  
+ form input[type="button"]:focus{
+      outline: none;
+  }
+  
+  form input[type="button"]{
+      background-color: transparent;
+      border-color: #ffffff;
+  }
+
+  body{
+    background: #f6f5f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Montserrat";
+    margin: 0px 0px 50px ;
+    padding: 20px 20px;
+}
+
+
+span{
+  font-size: 12px;
+}
+
+.social-container{
+  margin: 10px 0;
+}
+
+.social-container a{
+  border: 1px solid #dddddd;
+  border-radius: 50%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 5px;
+  height: 40px;
+  width: 40px;
+  text-decoration: none;
+}
+
+
+.remember-forgot {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+  }
+  
+
+  
